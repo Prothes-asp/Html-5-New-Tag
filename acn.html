@@ -1,0 +1,195 @@
+<html>
+<head>
+     <title>A Simple Practics</title>
+
+    <style type="text/css">
+      :lang(en){
+     color:red;
+      }
+      :lang(bn){
+     color:green;
+      }
+     sup{
+    color:red;
+   }
+     input[type="text"]:focus{
+       width:300px;
+       color:green;
+      background-color:pink;
+     }
+    input[ type="checkbox"]:checked{
+         box-shadow:0 0 0 3px gold;
+        }
+    input[ type="radio"]:checked+label{
+         color:gold;
+        }  
+    .asp{
+           font-weight:bold;
+           color:red;
+     }
+    label{
+     color:green;
+   }
+
+
+   .fldset{
+      width:350px;
+      margin:0 auto;
+     }
+
+
+
+    </style>
+
+</head>
+<body>
+         <h1 lang="en">Heading tag</h1>
+         <h1 lang="bn">একটা ওয়েব পেইজ ডিজাইনের গুরুত্বপূর্ণ বিষয় হচ্ছে লে আউট তৈরী করা ।</h1>
+         <span lang="en">Asp Prothes</span>
+<br><br>
+
+        <label>Name:</label><sup>*</sup>     <input type="text" placeholder="Enter Your Name"><br><br>
+        <label>Fathers Name:</label><sup>*</sup>   <input type="text" placeholder="Enter Your F Name"><br><br>
+        <label>Mothers Name:</label><sup>*</sup>   <input type="text" placeholder="Enter Your M Name"><br><br>
+        <label>Number:</label>  <input type="number" placeholder="Enter Lucky Number"><br><br>
+        <label>E-mail:</label><sup>*</sup>  <input type="email" placeholder="Enter Your Email"><br><br>
+        <label>Color:</label>    <input type="color"><br><br>
+        <label>Upload Pic:</label><sup>*</sup>   <input type="file"><br><br>
+        <label>Gender:</label><sup>*</sup>   <input type="radio" value="male" name="Gender"><label>Male</label>
+                                                                          <input type="radio" value="female" name="Gender"><label>Female</label>
+                                                                           <input type="radio" value="custom" name="Gender"><label>Custom</label>
+                                         <br>    <br>
+        <label>Education Qualification:</label>  <label>SSC</label>  <input type="checkbox" value="ssc">
+                                                                                            <label>HSC</label>  <input type="checkbox" value="hsc">
+                                                                                            <label>BSC</label>  <input type="checkbox" value="bsc">
+                                         <br>  <br><br><br>
+
+
+ <p class="asp"><label>&Delta;</label>The Html   <label>  &#169; </label>   Many Symbol</p>  
+<br><br><br><br><br><br><br><br><br><br>
+<fieldset class="fldset">
+             <legend>Currency :</legend>
+
+<form oninput="collect.value=(first.valueAsNumber * 84)">
+               <p>
+                <label>USD :</label>
+                <input type="number" min="0" id="first">
+               </p>
+  
+
+               <p>
+                <label>BDT : </label>
+                <output id="collect">0</output>
+               </p>
+</form>
+</fieldset>
+<br><br><br><br><br><br><br><br><br><br>
+<form oninput="addition.value=(first.valueAsNumber + seceond.valueAsNumber)">
+
+               <b>1st Number : <input type="number"     id="first"></b>     <br><br>
+               <b>2nd Number : <input type="number"     id="seceond"></b>     <br><br>
+                         <b>Addition : <output  id="addition">  0  </output></b>
+</form>
+<br><br><br><br><br><br><br><br><br><br>
+<form oninput="takayconvert.value=(first.valueAsNumber * 1.22)">
+               <b>RS: <input type="number"     id="first"></b>     <br><br>
+               <b>BDT : <output  id="takayconvert">  0  </output> tk </b>
+</form>
+<br><br>
+<center><h1>HTML-5 ALL NEW TAG </h1></center>
+<br><br>
+<form>
+          <fieldset>
+                  <legend>The Application</legend>
+                               <label>Name:</label> <input type="text" placeholder="Enter Your Name"><br><br>
+                               <label>Choose Number:</label> <input type="text" placeholder="Enter Chooose Number"><br><br>
+                                <label>Select State:</label>
+                                         <select>
+                                                          <option value="No Option">No Option</option>
+                                                          <option value="Html">Html</option>
+                                                          <option value="Css">Css</option>
+                                                          <option  value="Js">Js</option>
+                                                          <option  value="Php">Php</option>
+                                                          <option  value="Wordpress">Wordpress</option>
+                                                          <option  value="Jquary">Jquary</option>
+                                         </select><br><br>
+
+
+                                <label>Select State:</label>
+                                                          <input  type="text" list="ab">
+                                         <datalist id="ab">
+                                                          <option value="No Option">No Option</option>
+                                                          <option value="Html">Html</option>
+                                                          <option value="Css">Css</option>
+                                                          <option  value="Js">Js</option>
+                                                          <option  value="Php">Php</option>
+                                                          <option  value="Wordpress">Wordpress</option>
+                                                          <option  value="Jquary">Jquary</option>
+                                         </datalist><br><br>
+          </fieldset>
+</form>
+<br><br>
+
+<table border="2px" cellpadding="10px" cellspacing="10px">
+         <col span="2" style="background-color:gold;">
+ <tr>
+          <th>Name</th>
+          <th>Details</th>
+          <th>Vetsion</th>
+</tr>
+<tr>
+          <td>HTML</td>
+          <td>html</td>
+          <td>5</td>
+</tr>
+<tr>
+          <td>CSS</td>
+          <td>css</td>
+          <td>5</td>
+</tr>
+<tr>
+          <td>JS</td>
+          <td>js</td>
+          <td>5</td>
+</tr>
+</table>
+
+<br><br>
+ 
+<table border="2px" cellpadding="10px" cellspacing="10px">
+    <colgroup>
+         <col span="1" style="background-color:red;">
+         <col span="1" style="background-color:gold;">
+         <col span="1" style="background-color:green;">
+    </colgroup>
+ <tr>
+          <th>Name</th>
+          <th>Details</th>
+          <th>Vetsion</th>
+</tr>
+<tr>
+          <td>HTML</td>
+          <td>html</td>
+          <td>5</td>
+</tr>
+<tr>
+          <td>CSS</td>
+          <td>css</td>
+          <td>5</td>
+</tr>
+<tr>
+          <td>JS</td>
+          <td>js</td>
+          <td>5</td>
+</tr>
+</table>
+<br><br>
+   
+<details>
+       <summary>26 English Word in one sentence</summary>
+       <p>A quick brown fox jumps over the lazy dog</p>
+</details>
+
+<br><br><br><br>
+</body>
+</html>

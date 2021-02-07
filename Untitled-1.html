@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+    h1{
+        color: navy;
+        font-weight: bolder;
+        text-shadow:2px 2px 1px red;
+        text-decoration: underline;
+    }
+    fieldset{
+        width:12cm;
+    }
+    sup{
+        color: red;
+    }
+    input:disabled{
+        background-color: red;
+    }
+    input:enabled{
+         background-color: springgreen;
+    }
+    </style>
+</head>
+<body>
+   <h1>Application Form</h1>
+<form action="">
+    <fieldset>
+        <legend>New Application Form</legend>
+        <table>
+            <tr>
+                <td>Name : <sup>*</sup> </td>
+                <td><input type="text" placeholder="Enter your Name" disabled></td>
+            </tr>
+            <tr>
+                <td>Father's Name : <sup>*</sup></td>
+                <td><input type="text" placeholder="Enter your Father's Name" enabled></td>
+            </tr>
+            <tr>
+                <td>Mother's Name : <sup>*</sup></td>
+                <td><input type="text" placeholder="Enter your Mother's Name" enabled></td>
+            </tr>
+            <tr>
+                <td>Choose Lucky Number : </td>
+                <td><input type="number" placeholder="Enter Choose Number" enabled></td>
+            </tr>
+            <tr>
+                <td>Choose Color :</td>
+                <td><input type="color" disabled></td>
+            </tr>
+            <tr>
+                <td>E-mail : <sup>*</sup></td>
+                <td><input type="email" placeholder="Enter Your Email" enabled></td>
+            </tr>
+            <tr>
+                <td>Select State : </td>
+                <td>
+                    <select name="" id="" >
+                        <option value="No Option">No Option</option>
+                          <option value="HTML">HTML</option>
+                          <option value="CSS">CSS</option>
+                          <option value="JS" disabled>JS</option>
+                          <option value="PHP">PHP</option>
+                          <option value="ASP.NET">ASP.NET</option>
+                          <option value="WORDPRESS">WORDPRESS</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Upload Picture : <sup>*</sup></td>
+                <td><input type="file" enabled></td>
+            </tr>
+            <tr>
+                <td>Password : <sup>*</sup></td>
+                <td><input type="password" placeholder="Enter Your Password" enabled></td>
+            </tr>
+            
+        </table>
+    </fieldset>
+</form>
+<h2>A Quick Brown Fox Jumps Over The Lazy Dog</h2>
+<em style="color: skyblue;">DDDrrr</em>
+</body>
+</html>

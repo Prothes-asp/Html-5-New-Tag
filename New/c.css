@@ -1,0 +1,40 @@
+.fldset{
+    width:440px;
+    border:5px solid rgb(2, 212, 167);
+}
+.lgend{
+    font-weight: bolder;
+    color: rgb(255, 0, 242);
+}
+.bld{
+    font-weight: bold;
+    color:rgb(0, 198, 248);
+}
+sup{
+    color: red;
+}
+.inpt{
+    border:5px solid rgb(43, 250, 1);
+    width:200px;
+}
+.inptextra{
+    border:5px solid rgb(43, 250, 1);
+}
+.inptextr{
+    border:5px solid rgb(43, 250, 1);
+    width:134px;
+}
+.btntr{
+    height:60px;
+    white-space: pre;
+}
+.btn{
+    height:30px;
+    width:70px;
+    font-weight:bold;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:rgb(127, 91, 209);
+    border:5px solid rgb(43, 250, 1);
+    border-radius:5px;
+    background-color: salmon;
+}
